@@ -1,0 +1,31 @@
+.product-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .product-card img {
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .card-content h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-content p {
+    font-weight: bold;
+    color: #ff9800;
+  }
+  

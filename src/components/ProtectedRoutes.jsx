@@ -2,7 +2,7 @@ import { Navigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase";
 import React from "react";
-import ClipLoader from "react-spinners/ClipLoader";
+import { HashLoader } from "react-spinners";
 
 const ProtectedRoute = ({ children }) => {
   const [user, loading] = useAuthState(auth);
@@ -17,7 +17,7 @@ const ProtectedRoute = ({ children }) => {
           height: "100vh",
         }}
       >
-        <ClipLoader size={50} color="#4fa94d" />
+        <HashLoader size={50} color="#1e3c72" />
       </div>
     );
   }
