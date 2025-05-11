@@ -1,12 +1,53 @@
-# React + Vite
+# 🛒 React eCommerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional frontend for an eCommerce web app built using **React** and **Firebase Authentication**. It includes user authentication, dynamic product listing from the FakeStore API, user filters from RandomUser API, responsive UI, and toast notifications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🎯 [**https://shopify-p5s3.onrender.com**](#)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Tech Stack
+
+- **React.js**
+- **Firebase Authentication**
+- **React Router**
+- **Axios**
+- **React Toastify**
+- **CSS (custom themed)**
+- **React Spinners**
+- **FakeStore API**
+- **RandomUser API**
+
+---
+
+## 📁 Features Overview
+
+### ✅ Authentication
+- Login and Signup form powered by Firebase
+- Protected routes for authenticated users only
+
+### 🏠 Home Page
+- Gradient-themed responsive design
+- Introduction section with a CTA to explore products
+
+### 🔍 Product Page
+- Product listing fetched dynamically from [FakeStore API](https://fakestoreapi.com/)
+- Category-based filter sidebar (Electronics, Jewellery, Men’s & Women’s Fashion)
+- Product details modal on click
+- Loading spinner while fetching
+
+### 👥 Users Page
+- User data fetched from [RandomUser API](https://randomuser.me/)
+- Gender-based radio filters: Male, Female, All
+
+### 📩 Contact Us
+- Placeholder: "Contact page is under development."
+
+### 🔓 Logout
+- Clears user session and redirects to Auth page
+
+---
+
