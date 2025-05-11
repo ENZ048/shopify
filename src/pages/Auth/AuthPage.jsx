@@ -4,7 +4,7 @@ import {
   signInWithEmailAndPassword,
 } from 'firebase/auth';
 import { auth } from "../../firebase";
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { toast } from "react-toastify";
 import "./AuthPage.css";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
@@ -13,6 +13,7 @@ const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async(e) => {
     e.preventDefault();
@@ -26,6 +27,7 @@ const AuthPage = () => {
       if(isLogin){
         await signInWithEmailAndPassword(auth, email, password);
         toast.success('Login Successfull!');
+        navigate('/');
       }
       else{
         await createUserWithEmailAndPassword(auth, email, password);

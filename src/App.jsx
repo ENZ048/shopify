@@ -8,6 +8,7 @@ import ProductsPage from "./pages/Products/ProductsPage";
 import ContactPage from "./pages/Contact/ContactPage";
 import UsersPage from "./pages/Users/UsersPage";
 import ProtectedRoutes from "./components/ProtectedRoutes";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         theme="colored"
         pauseOnHover
       />
+
+      <Navbar />
 
       <Routes>
         <Route path="/auth" element={<AuthPage />} />
