@@ -1,0 +1,15 @@
+.user-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  .user-card img {
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .email{
+    font-size: 0.7rem;
+  }

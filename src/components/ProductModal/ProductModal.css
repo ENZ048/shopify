@@ -4,7 +4,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(30, 60, 114, 0.6); /* theme dark overlay */
+    background: rgba(30, 60, 114, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
   .info-section h2 {
     font-size: 1.4rem;
     margin: 0.5rem 0;
-    color: #1e3c72; /* Theme heading color */
+    color: #1e3c72;
   }
   
   .info-section .price {

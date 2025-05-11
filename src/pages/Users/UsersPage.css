@@ -1,0 +1,20 @@
+.users-page {
+    padding: 2rem;
+  }
+  
+  .gender-filters {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .users-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  
+
+  label, input{
+    cursor: pointer;
+  }
