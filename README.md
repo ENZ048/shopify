@@ -5,7 +5,7 @@ This is a fully functional frontend for an eCommerce web app built using **React
 ---
 
 ## 🚀 Live Demo
-🎯 [**https://shopify-p5s3.onrender.com**](#)
+🎯 [**[Click here..](https://shopify-p5s3.onrender.com/auth)**](#)
 
 ---
 
